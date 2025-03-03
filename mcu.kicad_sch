@@ -3578,7 +3578,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_3"
+	(global_label "GPIO_A3"
 		(shape input)
 		(at 143.51 120.65 0)
 		(fields_autoplaced yes)
@@ -3590,7 +3590,7 @@
 		)
 		(uuid "16889dee-650a-4a00-8508-7197362ea5e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.1476 120.65 0)
+			(at 154.2362 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +3688,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_6"
+	(global_label "GPIO_A6"
 		(shape input)
 		(at 143.51 128.27 0)
 		(fields_autoplaced yes)
@@ -3700,7 +3700,7 @@
 		)
 		(uuid "590a8e67-6041-4354-9479-b034af127da4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.1476 128.27 0)
+			(at 154.2362 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,7 +3754,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_2"
+	(global_label "GPIO_A2"
 		(shape input)
 		(at 143.51 118.11 0)
 		(fields_autoplaced yes)
@@ -3766,7 +3766,7 @@
 		)
 		(uuid "7004f076-c5e9-46db-ba40-f7a696ac7f4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.1476 118.11 0)
+			(at 154.2362 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3776,7 +3776,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_12"
+	(global_label "GPIO_A12"
 		(shape input)
 		(at 143.51 143.51 0)
 		(fields_autoplaced yes)
@@ -3788,7 +3788,7 @@
 		)
 		(uuid "771c9ab1-107a-4f27-9fc2-8360baa28bb5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.3571 143.51 0)
+			(at 155.4457 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +3820,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_2"
+	(global_label "GPIO_A2"
 		(shape input)
 		(at 265.43 130.81 0)
 		(fields_autoplaced yes)
@@ -3832,7 +3832,7 @@
 		)
 		(uuid "7e793443-6e8a-4805-b3e0-fd0f4678dfd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.0676 130.81 0)
+			(at 276.1562 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +3842,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_11"
+	(global_label "GPIO_A11"
 		(shape input)
 		(at 143.51 140.97 0)
 		(fields_autoplaced yes)
@@ -3854,7 +3854,7 @@
 		)
 		(uuid "80cb2b1e-4b84-4b4e-b822-17c2d01a43d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.3571 140.97 0)
+			(at 155.4457 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,7 +3864,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_3"
+	(global_label "GPIO_A3"
 		(shape input)
 		(at 199.39 82.55 180)
 		(fields_autoplaced yes)
@@ -3876,7 +3876,7 @@
 		)
 		(uuid "822ac29a-8547-4c46-87f1-32b0421c6706")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.7524 82.55 0)
+			(at 188.6638 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3886,7 +3886,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_[2..12]"
+	(global_label "GPIO_A[2..12]"
 		(shape input)
 		(at 248.92 30.48 180)
 		(fields_autoplaced yes)
@@ -3898,7 +3898,7 @@
 		)
 		(uuid "85436a44-f857-42d0-9519-e3ee89d9c67c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.9604 30.48 0)
+			(at 232.8718 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,7 +3996,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_4"
+	(global_label "GPIO_A4"
 		(shape input)
 		(at 143.51 123.19 0)
 		(fields_autoplaced yes)
@@ -4008,7 +4008,7 @@
 		)
 		(uuid "cd58b528-0d18-4c3e-8ead-e3a1ac41181b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.1476 123.19 0)
+			(at 154.2362 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +4018,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_9"
+	(global_label "GPIO_A9"
 		(shape input)
 		(at 143.51 135.89 0)
 		(fields_autoplaced yes)
@@ -4030,7 +4030,7 @@
 		)
 		(uuid "d274986b-d10d-43a4-baef-4fd2f4b18a8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.1476 135.89 0)
+			(at 154.2362 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,7 +4084,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_5"
+	(global_label "GPIO_A5"
 		(shape input)
 		(at 143.51 125.73 0)
 		(fields_autoplaced yes)
@@ -4096,7 +4096,7 @@
 		)
 		(uuid "e114a174-f4be-4fad-a548-62e6d1be633d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.1476 125.73 0)
+			(at 154.2362 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,7 +4106,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_7"
+	(global_label "GPIO_A7"
 		(shape input)
 		(at 143.51 130.81 0)
 		(fields_autoplaced yes)
@@ -4118,7 +4118,7 @@
 		)
 		(uuid "f061272f-c152-4f4b-848f-41c68cfde5cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.1476 130.81 0)
+			(at 154.2362 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,7 +4128,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_10"
+	(global_label "GPIO_A10"
 		(shape input)
 		(at 143.51 138.43 0)
 		(fields_autoplaced yes)
@@ -4140,7 +4140,7 @@
 		)
 		(uuid "f137b1ca-1551-400b-8dbf-23ed7f37d714")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.3571 138.43 0)
+			(at 155.4457 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +4150,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_8"
+	(global_label "GPIO_A8"
 		(shape input)
 		(at 143.51 133.35 0)
 		(fields_autoplaced yes)
@@ -4162,7 +4162,7 @@
 		)
 		(uuid "faad7f79-6845-4afa-a858-c1b9c988ea45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.1476 133.35 0)
+			(at 154.2362 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +4194,7 @@
 			)
 		)
 	)
-	(hierarchical_label "GPIO_[2..12]"
+	(hierarchical_label "GPIO_A[2..12]"
 		(shape input)
 		(at 262.89 30.48 0)
 		(effects
@@ -4312,7 +4312,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uf"
+		(property "Value" "10u"
 			(at 66.04 71.1199 0)
 			(effects
 				(font
@@ -5314,7 +5314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 118.11 67.6148 0)
 			(effects
 				(font
@@ -6011,7 +6011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 153.67 67.6148 0)
 			(effects
 				(font
@@ -6276,7 +6276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 80.9752 73.66 0)
 			(effects
 				(font

@@ -4396,7 +4396,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_7"
+	(global_label "GPIO_A7"
 		(shape input)
 		(at 173.99 147.32 0)
 		(fields_autoplaced yes)
@@ -4408,7 +4408,7 @@
 		)
 		(uuid "3a6f6df4-6d44-46fa-8e2b-65116a5695d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.6276 147.32 0)
+			(at 184.7162 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +4484,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_[2..12]"
+	(global_label "GPIO_A[2..12]"
 		(shape input)
 		(at 31.75 27.94 180)
 		(fields_autoplaced yes)
@@ -4496,7 +4496,7 @@
 		)
 		(uuid "5e29d888-81ce-4c92-aac2-933769f7e1ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.7904 27.94 0)
+			(at 15.7018 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4616,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_5"
+	(global_label "GPIO_A5"
 		(shape input)
 		(at 184.15 120.65 0)
 		(fields_autoplaced yes)
@@ -4628,7 +4628,7 @@
 		)
 		(uuid "a7277436-e1db-471e-9651-4e3a1b218723")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.7876 120.65 0)
+			(at 194.8762 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +4682,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_8"
+	(global_label "GPIO_A8"
 		(shape input)
 		(at 167.64 133.35 0)
 		(fields_autoplaced yes)
@@ -4694,7 +4694,7 @@
 		)
 		(uuid "eabf354b-3eb7-43ae-9c2c-38fc69f37a2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.2776 133.35 0)
+			(at 178.3662 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +4726,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_6"
+	(global_label "GPIO_A6"
 		(shape input)
 		(at 166.37 151.13 0)
 		(fields_autoplaced yes)
@@ -4738,7 +4738,7 @@
 		)
 		(uuid "fe0e93e3-40be-44e0-bd2b-73c7369e6ef4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.0076 151.13 0)
+			(at 177.0962 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4759,7 @@
 		)
 		(uuid "02a06f3e-eee9-456a-9a98-f75960d8c2f8")
 	)
-	(hierarchical_label "GPIO_[2..12]"
+	(hierarchical_label "GPIO_A[2..12]"
 		(shape input)
 		(at 45.72 27.94 0)
 		(effects
@@ -5987,7 +5987,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "150"
 			(at 170.18 52.0699 0)
 			(effects
 				(font
@@ -6333,7 +6333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 35.2552 67.31 0)
 			(effects
 				(font
@@ -8078,7 +8078,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "150"
 			(at 152.4 52.0699 0)
 			(effects
 				(font
@@ -8354,7 +8354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "155"
 			(at 161.29 52.0699 0)
 			(effects
 				(font
@@ -8569,7 +8569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 61.9252 67.31 0)
 			(effects
 				(font
