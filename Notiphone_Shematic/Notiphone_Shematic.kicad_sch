@@ -1,0 +1,247 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fa2b2113-e1a7-4307-a3dd-4528a7be4503")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 114.3 66.04) (xy 134.62 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325fe7d7-55eb-4b38-8619-3b6111b824f5")
+	)
+	(wire
+		(pts
+			(xy 163.83 66.04) (xy 182.88 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c32de3c-c104-49c5-9404-5758f4abb062")
+	)
+	(bus
+		(pts
+			(xy 114.3 53.34) (xy 182.88 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819ead58-ed86-4b14-a958-46a28b54fb89")
+	)
+	(bus
+		(pts
+			(xy 114.3 48.26) (xy 182.88 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe61101-116c-48a8-8a23-8d436f524b5f")
+	)
+	(sheet
+		(at 182.88 38.1)
+		(size 87.63 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d440cec-9b60-4dbd-9985-6d02b9436354")
+		(property "Sheetname" "MCU"
+			(at 182.88 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 182.88 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USBC_D{N,P}" input
+			(at 182.88 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2a75dd66-4791-40b6-af8b-639184b7c5df")
+		)
+		(pin "VCC_3V3" input
+			(at 182.88 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "925497e7-0173-4ae3-8214-7e0c2ebd2cab")
+		)
+		(pin "GPIO_A[2..12]" input
+			(at 182.88 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7b0b629c-5042-4698-95df-cf3babf92159")
+		)
+		(instances
+			(project "Notiphone_Shematic"
+				(path "/fa2b2113-e1a7-4307-a3dd-4528a7be4503"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 38.1)
+		(size 88.9 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c09b2234-4035-4821-8fd8-26c678f6520a")
+		(property "Sheetname" "Charging_and_Data"
+			(at 25.4 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "c_and_d.kicad_sch"
+			(at 25.4 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USBC_D{N,P}" input
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "00230259-f2b9-48ac-b414-4cb1cb1bdd7f")
+		)
+		(pin "V_BATT" input
+			(at 114.3 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f3b4d51f-e88f-4b78-9f46-db0d388af206")
+		)
+		(pin "GPIO_A[2..12]" input
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fce690ac-d707-4381-9f5b-b9932d032b94")
+		)
+		(instances
+			(project "Notiphone_Shematic"
+				(path "/fa2b2113-e1a7-4307-a3dd-4528a7be4503"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 59.69)
+		(size 29.21 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d5365b8e-acac-4717-80e7-3522edf066f2")
+		(property "Sheetname" "Battery"
+			(at 134.62 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 134.62 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCC_3V3" input
+			(at 163.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ad1bc79e-0c6f-4326-93cb-2326d2c6a1cd")
+		)
+		(pin "V_BATT" input
+			(at 134.62 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5a9a6d57-d17e-465e-90dc-ef77adb56a0e")
+		)
+		(instances
+			(project "Notiphone_Shematic"
+				(path "/fa2b2113-e1a7-4307-a3dd-4528a7be4503"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
