@@ -3,7 +3,7 @@ import time
 
 # Define GPIOs
 motor_pin = Pin(5, Pin.OUT)   # Motor control via transistor
-led_pin = Pin(4, Pin.OUT)     # LED indicator
+led_pin = PWM(Pin(4))  # LED indicator using PWM
 potentiometer = ADC(Pin(36))  # Potentiometer input (A0)
 potentiometer.atten(ADC.ATTN_11DB)  # Full range (0-3.3V)
 
@@ -15,12 +15,13 @@ mic.atten(ADC.ATTN_11DB)  # Full range (0-3.3V)
 start_button = Pin(8, Pin.IN, Pin.PULL_UP)   # Start button with pull-up resistor
 stop_button = Pin(15, Pin.IN, Pin.PULL_UP)   # Stop button with pull-up resistor
 
-# PWM Setup for Motor
+# PWM Setup for Motor & LED
 motor_pwm = PWM(motor_pin, freq=1000)  # 1 kHz PWM frequency
+led_pin.freq(1000)  # Set LED PWM frequency
 
 # Ensure motor and LED are OFF at startup
 motor_pwm.duty(0)  # Ensure motor is OFF
-led_pin.off()  # Ensure LED is OFF
+led_pin.duty(0)  # Ensure LED is OFF
 
 # Flags
 stop_vibration = False
@@ -97,29 +98,28 @@ def vibrate():
     # Start vibration immediately
     print("\n▶ VIBRATION STARTED")
     print("------------------")
-    led_pin.on()  # Turn on LED to indicate vibration is active
     stop_vibration = False  # Reset stop flag
-    
+
     while not stop_vibration:  # Run until stop flag is set
         # Check if stop button is pressed and released
         if stop_button.value() == 0:
-            if debug_mode:
-                print("  Stop button pressed")
             time.sleep(0.05)  # Small delay
             if stop_button.value() == 1:  # Button released
                 stop_vibration = True
                 print("✓ Stop button released - stopping vibration")
             
+        # Read potentiometer value to adjust vibration and LED brightness
         pot_value = potentiometer.read()  # Read potentiometer (0-4095)
         duty_cycle = int((pot_value / 4095) * 1023)  # Scale to PWM (0-1023)
+
         motor_pwm.duty(duty_cycle)  # Adjust motor strength
-        
-        # Very short sleep for better responsiveness
-        time.sleep(0.01)
-    
+        led_pin.duty(duty_cycle)  # Adjust LED brightness based on motor strength
+
+        time.sleep(0.01)  # Short delay for better responsiveness
+
     # Ensure motor and LED are turned off
     motor_pwm.duty(0)  # Turn off motor
-    led_pin.off()
+    led_pin.duty(0)  # Turn off LED
     print("■ VIBRATION STOPPED")
     print("------------------\n")
 
